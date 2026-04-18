@@ -113,7 +113,7 @@ export default function LandingPage() {
       tag="Our Impact"
       metrics={[
         {
-          id: "m1",          value: "$500M+",          description: "Projects Estimated"},
+          id: "m1",          value: "$500M+",          description: "Worth of Projects Estimated"},
         {
           id: "m2",          value: "1,200+",          description: "Happy Contractors"},
         {
