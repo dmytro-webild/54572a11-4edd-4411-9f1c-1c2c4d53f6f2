@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
-import FeatureCardMedia from '@/components/sections/feature/FeatureCardMedia';
+import FeatureCardTwentyOne from '@/components/sections/feature/FeatureCardTwentyOne';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen';
@@ -58,20 +58,48 @@ export default function LandingPage() {
   </div>
 
   <div id="features" data-section="features">
-      <FeatureCardMedia
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      features={[
-        {
-          id: "f1",          title: "Accurate Takeoffs",          description: "Minimize material waste with our precision-engineered quantity takeoffs.",          tag: "Precision",          imageSrc: "http://img.b2bpic.net/free-photo/man-holding-smartphone-with-apartment-buildings-hologram_23-2149369107.jpg"},
-        {
-          id: "f2",          title: "Real-time Costing",          description: "Stay updated with current market rates for labor and materials globally.",          tag: "Insight",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-measuring-tools-still-life_23-2150440965.jpg"},
-        {
-          id: "f3",          title: "Expert Collaboration",          description: "Our team works seamlessly with your architects and contractors.",          tag: "Team",          imageSrc: "http://img.b2bpic.net/free-photo/team-business-people-group-architect-engineers-international-partners_1157-48546.jpg"},
+      <FeatureCardTwentyOne
+      title="Types of Contractors We Serve"
+      description="From general contractors to specialized trades, we provide precise estimates for every sector of the construction industry."
+      accordionItems={[
+        { id: "c1", title: "General Contractors", content: "Residential and commercial primary contractors." },
+        { id: "c2", title: "Electrical Contractors", content: "Full electrical systems and low voltage wiring." },
+        { id: "c3", title: "Plumbing Contractors", content: "Residential and industrial pipe systems." },
+        { id: "c4", title: "HVAC Contractors", content: "Climate control and ventilation specialists." },
+        { id: "c5", title: "Concrete Contractors", content: "Foundation and structural concrete work." },
+        { id: "c6", title: "Masonry Contractors", content: "Brick, stone, and block masonry." },
+        { id: "c7", title: "Carpentry Contractors", content: "Framing, finish carpentry, and millwork." },
+        { id: "c8", title: "Painting Contractors", content: "Interior and exterior coating systems." },
+        { id: "c9", title: "Roofing Contractors", content: "Commercial and residential roofing." },
+        { id: "c10", title: "Drywall Contractors", content: "Wall assembly and finishing." },
+        { id: "c11", title: "Flooring Contractors", content: "Tile, carpet, hardwood, and epoxy." },
+        { id: "c12", title: "Landscaping Contractors", content: "Hardscaping and irrigation planning." },
+        { id: "c13", title: "Glass & Glazing Contractors", content: "Window and curtain wall systems." },
+        { id: "c14", title: "Steel Fabricators", content: "Structural and ornamental steelwork." },
+        { id: "c15", title: "Excavation Contractors", content: "Site prep and earthmoving." },
+        { id: "c16", title: "Insulation Contractors", content: "Thermal and acoustic insulation." },
+        { id: "c17", title: "Demolition Contractors", content: "Structure removal and site clearing." },
+        { id: "c18", title: "Waterproofing Contractors", content: "Foundation and envelope protection." },
+        { id: "c19", title: "Fire Protection Contractors", content: "Sprinkler and safety systems." },
+        { id: "c20", title: "Tile & Stone Contractors", content: "Interior and exterior stone installation." },
+        { id: "c21", title: "Cabinetry Contractors", content: "Custom kitchen and casework." },
+        { id: "c22", title: "Siding Contractors", content: "Exterior wall facade installation." },
+        { id: "c23", title: "Asphalt Paving Contractors", content: "Pavement and roadway systems." },
+        { id: "c24", title: "Elevator Contractors", content: "Lift and vertical transport systems." },
+        { id: "c25", title: "Solar Contractors", content: "Photovoltaic and renewable systems." },
+        { id: "c26", title: "Security Contractors", content: "Access control and surveillance." },
+        { id: "c27", title: "Acoustic Ceiling Contractors", content: "Drop ceiling and sound masking." },
+        { id: "c28", title: "Environmental Remediation", content: "Hazardous material abatement." },
+        { id: "c29", title: "Curtain Wall Contractors", content: "High-rise exterior glass systems." },
+        { id: "c30", title: "Utility Contractors", content: "Public and site utility services." },
+        { id: "c31", title: "Fencing Contractors", content: "Perimeter and decorative fencing." },
+        { id: "c32", title: "Cleanroom Contractors", content: "Controlled environment installation." },
+        { id: "c33", title: "Medical Gas Contractors", content: "Specialized gas distribution." },
+        { id: "c34", title: "Pool & Spa Contractors", content: "Aquatic and recreational construction." },
+        { id: "c35", title: "Cold Storage Contractors", content: "Refrigeration and insulated enclosures." }
       ]}
-      title="Why Professional Estimators Choose Us"
-      description="We bridge the gap between architectural vision and profitable project execution."
+      mediaAnimation="blur-reveal"
+      imageSrc="http://img.b2bpic.net/free-photo/group-construction-workers-wearing-safety-vests-hard-hats-standing-construction-site_1150-18451.jpg"
     />
   </div>
 
