@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "hero",
-        },
+          name: "Home",          id: "hero"},
         {
-          name: "Features",
-          id: "features",
-        },
+          name: "Features",          id: "features"},
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="EstimatePro"
     />
@@ -54,15 +46,12 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Precision Estimating for Elite Builders"
       description="Unlock accurate project costs and maximize your margins with our industry-leading construction estimating services."
       buttons={[
         {
-          text: "Get Your Estimate",
-          href: "#contact",
-        },
+          text: "Get Your Estimate",          href: "#contact"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/builder-man-taking-notes-mini-notebook-white-t-shirt-helmet-looking-busy-front-view_176474-9981.jpg"
     />
@@ -75,26 +64,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",
-          title: "Accurate Takeoffs",
-          description: "Minimize material waste with our precision-engineered quantity takeoffs.",
-          tag: "Precision",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-holding-smartphone-with-apartment-buildings-hologram_23-2149369107.jpg",
-        },
+          id: "f1",          title: "Accurate Takeoffs",          description: "Minimize material waste with our precision-engineered quantity takeoffs.",          tag: "Precision",          imageSrc: "http://img.b2bpic.net/free-photo/man-holding-smartphone-with-apartment-buildings-hologram_23-2149369107.jpg"},
         {
-          id: "f2",
-          title: "Real-time Costing",
-          description: "Stay updated with current market rates for labor and materials globally.",
-          tag: "Insight",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-measuring-tools-still-life_23-2150440965.jpg",
-        },
+          id: "f2",          title: "Real-time Costing",          description: "Stay updated with current market rates for labor and materials globally.",          tag: "Insight",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-measuring-tools-still-life_23-2150440965.jpg"},
         {
-          id: "f3",
-          title: "Expert Collaboration",
-          description: "Our team works seamlessly with your architects and contractors.",
-          tag: "Team",
-          imageSrc: "http://img.b2bpic.net/free-photo/team-business-people-group-architect-engineers-international-partners_1157-48546.jpg",
-        },
+          id: "f3",          title: "Expert Collaboration",          description: "Our team works seamlessly with your architects and contractors.",          tag: "Team",          imageSrc: "http://img.b2bpic.net/free-photo/team-business-people-group-architect-engineers-international-partners_1157-48546.jpg"},
       ]}
       title="Why Professional Estimators Choose Us"
       description="We bridge the gap between architectural vision and profitable project execution."
@@ -109,47 +83,23 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",
-          name: "Residential Renovation",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/construction-plans-architectural-project_1232-2918.jpg",
-        },
+          id: "p1",          brand: "BuildPro",          name: "Residential Renovation",          price: "Custom Quote",          rating: 5,
+          reviewCount: "120",          imageSrc: "http://img.b2bpic.net/free-photo/construction-plans-architectural-project_1232-2918.jpg"},
         {
-          id: "p2",
-          name: "Commercial Buildout",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-481.jpg",
-        },
+          id: "p2",          brand: "BuildPro",          name: "Commercial Buildout",          price: "Custom Quote",          rating: 5,
+          reviewCount: "85",          imageSrc: "http://img.b2bpic.net/free-photo/hands-engineer-working-blueprint-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus_1418-481.jpg"},
         {
-          id: "p3",
-          name: "Luxury Home Build",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/scenery-designers-work_23-2149741804.jpg",
-        },
+          id: "p3",          brand: "BuildPro",          name: "Luxury Home Build",          price: "Custom Quote",          rating: 5,
+          reviewCount: "45",          imageSrc: "http://img.b2bpic.net/free-photo/scenery-designers-work_23-2149741804.jpg"},
         {
-          id: "p4",
-          name: "Landscape Estimates",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/construction-site_53876-16234.jpg",
-        },
+          id: "p4",          brand: "BuildPro",          name: "Landscape Estimates",          price: "Custom Quote",          rating: 5,
+          reviewCount: "30",          imageSrc: "http://img.b2bpic.net/free-photo/construction-site_53876-16234.jpg"},
         {
-          id: "p5",
-          name: "Industrial Projects",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/architectural-blueprints_1359-425.jpg",
-        },
+          id: "p5",          brand: "BuildPro",          name: "Industrial Projects",          price: "Custom Quote",          rating: 5,
+          reviewCount: "60",          imageSrc: "http://img.b2bpic.net/free-photo/architectural-blueprints_1359-425.jpg"},
         {
-          id: "p6",
-          name: "Sustainable Development",
-          price: "Custom Quote",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-teamwork-project_23-2148894074.jpg",
-        },
+          id: "p6",          brand: "BuildPro",          name: "Sustainable Development",          price: "Custom Quote",          rating: 5,
+          reviewCount: "25",          imageSrc: "http://img.b2bpic.net/free-photo/top-view-teamwork-project_23-2148894074.jpg"},
       ]}
       title="Our Specialized Estimating Services"
       description="From residential luxury homes to massive industrial developments."
@@ -163,20 +113,11 @@ export default function LandingPage() {
       tag="Our Impact"
       metrics={[
         {
-          id: "m1",
-          value: "$500M+",
-          description: "Projects Estimated",
-        },
+          id: "m1",          value: "$500M+",          description: "Projects Estimated"},
         {
-          id: "m2",
-          value: "1,200+",
-          description: "Happy Contractors",
-        },
+          id: "m2",          value: "1,200+",          description: "Happy Contractors"},
         {
-          id: "m3",
-          value: "99.8%",
-          description: "Estimate Accuracy",
-        },
+          id: "m3",          value: "99.8%",          description: "Estimate Accuracy"},
       ]}
       metricsAnimation="slide-up"
     />
@@ -188,20 +129,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "q1",
-          title: "How fast do you return estimates?",
-          content: "Most residential projects are returned within 48-72 hours.",
-        },
+          id: "q1",          title: "How fast do you return estimates?",          content: "Most residential projects are returned within 48-72 hours."},
         {
-          id: "q2",
-          title: "Can you handle large projects?",
-          content: "Yes, we specialize in large industrial and commercial scale builds.",
-        },
+          id: "q2",          title: "Can you handle large projects?",          content: "Yes, we specialize in large industrial and commercial scale builds."},
         {
-          id: "q3",
-          title: "Is your data secure?",
-          content: "We maintain strict data privacy standards for all your project blueprints.",
-        },
+          id: "q3",          title: "Is your data secure?",          content: "We maintain strict data privacy standards for all your project blueprints."},
       ]}
       mediaAnimation="blur-reveal"
       title="Common Questions About Estimating"
@@ -219,25 +151,15 @@ export default function LandingPage() {
       author="Marcus Thorne, Principal Builder"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-young-builder-orange-work-clothes-yellow-hardhat-with-pencil-ear-dreamily-looking-camera-with-scaffolding-background_574295-1578.jpg",
-          alt: "Marcus Thorne",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-young-builder-orange-work-clothes-yellow-hardhat-with-pencil-ear-dreamily-looking-camera-with-scaffolding-background_574295-1578.jpg",          alt: "Marcus Thorne"},
         {
-          src: "http://img.b2bpic.net/free-photo/construction-team-work_23-2151962521.jpg",
-          alt: "Sarah J.",
-        },
+          src: "http://img.b2bpic.net/free-photo/construction-team-work_23-2151962521.jpg",          alt: "Sarah J."},
         {
-          src: "http://img.b2bpic.net/free-photo/smiley-architect-holding-his-plans_23-2148242980.jpg",
-          alt: "David B.",
-        },
+          src: "http://img.b2bpic.net/free-photo/smiley-architect-holding-his-plans_23-2148242980.jpg",          alt: "David B."},
         {
-          src: "http://img.b2bpic.net/free-photo/medium-shot-man-posing-with-helmet_23-2148921381.jpg",
-          alt: "Elena R.",
-        },
+          src: "http://img.b2bpic.net/free-photo/medium-shot-man-posing-with-helmet_23-2148921381.jpg",          alt: "Elena R."},
         {
-          src: "http://img.b2bpic.net/free-photo/proud-male-contractor-enjoying-day-work-checking-blueprints-construction-new-house_662251-497.jpg",
-          alt: "Jim W.",
-        },
+          src: "http://img.b2bpic.net/free-photo/proud-male-contractor-enjoying-day-work-checking-blueprints-construction-new-house_662251-497.jpg",          alt: "Jim W."},
       ]}
       ratingAnimation="blur-reveal"
       avatarsAnimation="blur-reveal"
@@ -248,14 +170,11 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{
-        variant: "sparkles-gradient",
-      }}
+        variant: "sparkles-gradient"}}
       text="Ready to streamline your construction bidding process? Start your first estimate today."
       buttons={[
         {
-          text: "Contact Estimators",
-          href: "mailto:hello@estimatepro.com",
-        },
+          text: "Contact Estimators",          href: "mailto:hello@estimatepro.com"},
       ]}
     />
   </div>
@@ -264,13 +183,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="EstimatePro"
       leftLink={{
-        text: "Privacy Policy",
-        href: "#",
-      }}
+        text: "Privacy Policy",        href: "#"}}
       rightLink={{
-        text: "Terms of Service",
-        href: "#",
-      }}
+        text: "Terms of Service",        href: "#"}}
     />
   </div>
       </ReactLenis>
