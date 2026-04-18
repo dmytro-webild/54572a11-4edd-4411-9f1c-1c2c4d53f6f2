@@ -60,6 +60,7 @@ export default function LandingPage() {
       ]}
       mediaAnimation="blur-reveal"
       imageSrc="http://img.b2bpic.net/free-photo/group-construction-workers-wearing-safety-vests-hard-hats-standing-construction-site_1150-18451.jpg"
+      videoSrc=""
     />
   </div>
 
